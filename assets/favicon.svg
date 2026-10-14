@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Renaissance-style favicon: classical arch, laurel, gold serif monogram on deep ink -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1623"/>
+      <stop offset="1" stop-color="#12233a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C2A476"/>
+      <stop offset="1" stop-color="#B08D57"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded square background -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="url(#bg)"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#B08D57" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- classical arch frame -->
+  <path d="M14 50 V30 a18 18 0 0 1 36 0 V50" fill="none" stroke="url(#gold)" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- laurel wreath (left) -->
+  <g fill="none" stroke="#66704A" stroke-width="1.6" stroke-linecap="round">
+    <path d="M14 30 c-4 -2 -6 -6 -5 -10 c3 1 5 3 6 6"/>
+    <path d="M13 33 c-5 -1 -8 -5 -7 -9 c3 1 5 4 6 7"/>
+    <path d="M15 27 c-3 -3 -4 -7 -2 -11 c3 1 4 4 4 8"/>
+  </g>
+  <!-- laurel wreath (right) -->
+  <g fill="none" stroke="#66704A" stroke-width="1.6" stroke-linecap="round">
+    <path d="M50 30 c4 -2 6 -6 5 -10 c-3 1 -5 3 -6 6"/>
+    <path d="M51 33 c5 -1 8 -5 7 -9 c-3 1 -5 4 -6 7"/>
+    <path d="M49 27 c3 -3 4 -7 2 -11 c-3 1 -4 4 -4 8"/>
+  </g>
+
+  <!-- serif monogram HA -->
+  <text x="32" y="40" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="url(#gold)" letter-spacing="1">HA</text>
+
+  <!-- small gold dot under arch (keystone) -->
+  <circle cx="32" cy="12" r="1.6" fill="#B08D57"/>
+</svg>

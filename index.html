@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ═══ SEO — base placeholders (app.js swaps values per language via content.json seo block) ═══ -->
+  <title data-i18n-title="seo.title" data-i18n="seo.title">avibe-hospitality — Integrated hardware + software concept, deployed on Cloudflare</title>
+  <meta name="description" data-i18n="seo.description" content="Hardware which eases the pain and sells software (modular hardware + software) for hospitality (B2B). Further projected to be built and integrated — avibe hospitality harness.">
+
+  <meta name="author" content="Avibe Agency">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" data-i18n="seo.ogTitle" content="#0B1623">
+
+  <!-- Open Graph placeholders (per-language values injected by app.js) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="avibe-hospitality">
+  <meta property="og:title" data-i18n="seo.ogTitle" content="avibe-hospitality">
+  <meta property="og:description" data-i18n="seo.ogDesc" content="Integrated hardware + software concept for hospitality, deployed on Cloudflare.">
+  <meta property="og:url" content="https://example.invalid/">
+  <meta property="og:image" content="assets/og-preview.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" data-i18n="seo.ogTitle" content="avibe-hospitality">
+  <meta name="twitter:description" data-i18n="seo.ogDesc" content="Integrated hardware + software concept for hospitality, deployed on Cloudflare.">
+
+  <link rel="canonical" href="https://example.invalid/">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- ═══ JSON-LD : Organization (placeholder, no fictitious claims) ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "avibe-hospitality",
+    "url": "https://example.invalid/",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+39-345-023-4084",
+      "contactType": "customer service",
+      "availableLanguage": ["it", "en", "ru"]
+    }
+  }
+  </script>
+
+  <!-- ═══ JSON-LD : LocalBusiness (placeholder — not a live address/rating) ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "avibe-hospitality",
+    "description": "Hardware which eases the pain and sells software (modular hardware + software) for hospitality (B2B). Further projected to be built and integrated — avibe hospitality harness.",
+    "url": "https://example.invalid/",
+    "areaServed": "Liguria, Italy",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+39-345-023-4084",
+      "contactType": "sales",
+      "availableLanguage": ["it", "en", "ru"]
+    }
+  }
+  </script>
+
+  <!-- ═══ JSON-LD : SoftwareApplication (placeholder; NO ratings, NO fictitious claims) ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "avibe-hospitality",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Hardware which eases the pain and sells software (modular hardware + software) for hospitality (B2B). Further projected to be built and integrated — avibe hospitality harness.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="nav.toContent">Skip to content</a>
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#main" aria-label="avibe-hospitality — home">
+        <span class="logo-mark" aria-hidden="true">HA</span>
+        <span class="logo-text" data-i18n="header.logo1">avibe-</span>
+        <span class="logo-text logo-text--accent" data-i18n="header.logo2">hospitality</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary" id="primary-nav">
+        <ul class="nav-list">
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#architecture" data-i18n="nav.architecture">Architecture</a></li>
+          <li><a href="#modules" data-i18n="nav.modules">Modules</a></li>
+          <li><a href="#journey" data-i18n="nav.journey">Journey</a></li>
+          <li><a href="#hardware" data-i18n="nav.hardware">Hardware</a></li>
+          <li><a href="#vape" data-i18n="nav.vape">Vape</a></li>
+          <li><a href="#liguria" data-i18n="nav.liguria">Liguria</a></li>
+          <li><a href="#financial" data-i18n="nav.financial">Financial</a></li>
+          <li><a href="#risks" data-i18n="nav.risks">Risks</a></li>
+          <li><a href="#forms" data-i18n="nav.forms">Forms</a></li>
+        </ul>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Language">
+              <button type="button" class="lang-toggle" aria-haspopup="true" aria-expanded="false" aria-label="Language" data-i18n-aria="header.langLabel">
+                <span class="lang-globe" aria-hidden="true">🌐</span>
+                <span class="lang-current" data-i18n="langName">Русский</span>
+                <span class="lang-caret" aria-hidden="true">▾</span>
+              </button>
+              <ul class="lang-menu" role="menu" aria-label="Language" hidden>
+                <li role="none"><button type="button" class="lang-btn" role="menuitem" data-lang="ru" data-i18n="langName">Русский</button></li>
+                <li role="none"><button type="button" class="lang-btn" role="menuitem" data-lang="it" data-i18n="langName">Italiano</button></li>
+                <li role="none"><button type="button" class="lang-btn" role="menuitem" data-lang="en" data-i18n="langName">English</button></li>
+              </ul>
+            </div>
+
+      <a href="#forms" class="btn btn--gold header-cta" data-i18n="header.cta">Request a pilot</a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu" data-i18n-aria="nav.toggle" data-i18n-title="nav.toggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="section hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Hardware which eases the pain and sells software (modular hardware + software) for hospitality (B2B). Further projected to be built and integrated — avibe hospitality harness.</p>
+          <h1 class="h1">
+            <span data-i18n="hero.h1">One identity, one hotel.</span>
+            <span class="h1-em" data-i18n="hero.h1Em">Every guest service, quietly handled.</span>
+          </h1>
+          <p class="lede" data-i18n="hero.lede">A resident identity layer and agentic network that coordinates hardware, staff and third-party services across a single hospitality property.</p>
+          <p class="hero-sub" data-i18n="hero.sub">A concept and pilot specification for independent hotels. No public pricing yet — a private working model is shared on request.</p>
+          <div class="hero-ctas">
+            <a href="#forms" class="btn btn--gold" data-i18n="hero.cta1">Request a pilot</a>
+            <a href="#architecture" class="btn btn--ghost" data-i18n="hero.cta2">Explore architecture</a>
+          </div>
+        </div>
+
+        <!-- ══ Hero device mockup (conceptual) ══ -->
+        <figure class="hero-device" role="presentation">
+          <div class="device-frame">
+            <div class="device-screen">
+              <img src="assets/hero-liguria.jpg" alt="" class="device-img" aria-hidden="true">
+            </div>
+          </div>
+          <div class="agent-ui">
+            <span class="agent-ui-chip" data-i18n="hero.uiGreet">Buongiorno, welcome</span>
+            <span class="agent-ui-chip agent-ui-chip--gold" data-i18n="hero.uiBook">Booking synced</span>
+            <span class="agent-ui-chip" data-i18n="hero.uiEnergy">Energy -12%</span>
+          </div>
+          <figcaption class="device-caption" data-i18n="hero.deviceLabel">Concept</figcaption>
+        </figure>
+      </div>
+
+      <div class="container hero-stats" aria-label="High-level stats">
+        <div class="stat">
+          <span class="stat-num" data-i18n="hero.stat1">1</span>
+          <span class="stat-label" data-i18n="hero.stat1Label">resident identity per guest</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-i18n="hero.stat2">5</span>
+          <span class="stat-label" data-i18n="hero.stat2Label">service layers coordinated</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-i18n="hero.stat3">9</span>
+          <span class="stat-label" data-i18n="hero.stat3Label">hardware &amp; software modules</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ABOUT ═══════════ -->
+    <section class="section" id="about">
+      <div class="container about-inner">
+        <p class="eyebrow" data-i18n="about.eyebrow">What this is</p>
+        <h2 class="h2" data-i18n="about.title">A specification, not a product claim</h2>
+        <p class="about-text" data-i18n="about.text">Hardware which eases the pain and sells software (modular hardware + software) for hospitality (B2B). Further projected to be built and integrated — avibe hospitality harness.</p>
+        <div class="panel note">
+          <p data-i18n="about.note">Nothing on this page is a binding offer, a health claim, or a certification. Engineering and compliance details are resolved case by case with licensed partners and counsel.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PROBLEM ═══════════ -->
+    <section class="section section--alt" id="problem">
+      <div class="container">
+        <p class="eyebrow" data-i18n="problem.titleEyebrow">The problem</p>
+        <h2 class="h2" data-i18n="problem.title">Five pressures on a modern property</h2>
+        <p class="section-sub" data-i18n="problem.sub">Independent hotels face overlapping operational strains that a single coordinated identity layer can help address.</p>
+        <div class="grid grid--5">
+          <article class="card" data-reveal>
+            <h3 class="h3" data-i18n="problem.items.0.t">Staff shortage</h3>
+            <p data-i18n="problem.items.0.d">Fewer people per guest; routine tasks must be automated, not ignored.</p>
+          </article>
+          <article class="card" data-reveal>
+            <h3 class="h3" data-i18n="problem.items.1.t">Multilingual reality</h3>
+            <p data-i18n="problem.items.1.d">Guests expect instant service in their own language, around the clock.</p>
+          </article>
+          <article class="card" data-reveal>
+            <h3 class="h3" data-i18n="problem.items.2.t">Fragmented PMS / IoT</h3>
+            <p data-i18n="problem.items.2.d">Unrelated systems fail to share one view of the guest.</p>
+          </article>
+          <article class="card" data-reveal>
+            <h3 class="h3" data-i18n="problem.items.3.t">Instant guest support</h3>
+            <p data-i18n="problem.items.3.d">Reception closes; requests wait for a person to become available.</p>
+          </article>
+          <article class="card" data-reveal>
+            <h3 class="h3" data-i18n="problem.items.4.t">Underused physical space</h3>
+            <p data-i18n="problem.items.4.d">Lobbies and devices sit idle when they could serve guests and the property.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ARCHITECTURE (layered HTML/CSS/SVG diagram) ═══════════ -->
+    <section class="section" id="architecture">
+      <div class="container">
+        <p class="eyebrow" data-i18n="architecture.titleEyebrow">How it fits together</p>
+        <h2 class="h2" data-i18n="architecture.title">A layered architecture</h2>
+        <p class="section-sub" data-i18n="architecture.sub">Five cooperating layers make the network legible and governable.</p>
+
+        <div class="arch-dia" data-reveal>
+          <!-- vertical connector drawn in CSS between layers; inline SVG joins each layer -->
+          <ol class="arch-stack">
+            <li class="arch-layer">
+              <span class="arch-label" data-i18n="architecture.layers.0.label">Layer 1</span>
+              <h3 class="h3" data-i18n="architecture.layers.0.name">Hardware</h3>
+              <p data-i18n="architecture.layers.0.desc">Physical endpoints: locks, kiosks, lockers, sensors, displays.</p>
+            </li>
+            <li class="arch-link" aria-hidden="true">
+              <svg viewBox="0 0 24 32" width="24" height="32" focusable="false"><path d="M12 2v16m0 0l-6-6m6 6l6-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </li>
+            <li class="arch-layer">
+              <span class="arch-label" data-i18n="architecture.layers.1.label">Layer 2</span>
+              <h3 class="h3" data-i18n="architecture.layers.1.name">Identity</h3>
+              <p data-i18n="architecture.layers.1.desc">Verified guest identity and consent, shared in one place.</p>
+            </li>
+            <li class="arch-link" aria-hidden="true">
+              <svg viewBox="0 0 24 32" width="24" height="32" focusable="false"><path d="M12 2v16m0 0l-6-6m6 6l6-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </li>
+            <li class="arch-layer arch-layer--core">
+              <span class="arch-label" data-i18n="architecture.layers.2.label">Layer 3</span>
+              <h3 class="h3" data-i18n="architecture.layers.2.name">Agent layer</h3>
+              <p data-i18n="architecture.layers.2.desc">Reasoning, routing and hand-off between software agents.</p>
+            </li>
+            <li class="arch-link" aria-hidden="true">
+              <svg viewBox="0 0 24 32" width="24" height="32" focusable="false"><path d="M12 2v16m0 0l-6-6m6 6l6-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </li>
+            <li class="arch-layer">
+              <span class="arch-label" data-i18n="architecture.layers.3.label">Layer 4</span>
+              <h3 class="h3" data-i18n="architecture.layers.3.name">Integrations</h3>
+              <p data-i18n="architecture.layers.3.desc">PMS, payment, booking and third-party service connectors.</p>
+            </li>
+            <li class="arch-link" aria-hidden="true">
+              <svg viewBox="0 0 24 32" width="24" height="32" focusable="false"><path d="M12 2v16m0 0l-6-6m6 6l6-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </li>
+            <li class="arch-layer">
+              <span class="arch-label" data-i18n="architecture.layers.4.label">Layer 5</span>
+              <h3 class="h3" data-i18n="architecture.layers.4.name">Fulfilment</h3>
+              <p data-i18n="architecture.layers.4.desc">Delivery: staff tasks, retail, vending, local partner services.</p>
+            </li>
+          </ol>
+          <p class="arch-note" data-i18n="architecture.note">Schema diagram — illustrative, not a deployment contract.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ MODULES ═══════════ -->
+    <section class="section section--alt" id="modules">
+      <div class="container">
+        <p class="eyebrow" data-i18n="modules.titleEyebrow">Product areas</p>
+        <h2 class="h2" data-i18n="modules.title">Six modules</h2>
+        <p class="section-sub" data-i18n="modules.sub">Each module is a coherent capability. Select any card for a fuller description.</p>
+        <div class="grid grid--3 modules-grid">
+                  <div class="card module-card" data-reveal>
+            <img class="module-img" src="assets/modules/guestnode.png" alt="" loading="lazy">
+            <button type="button" class="module-toggle" data-module-toggle="guestnode" aria-expanded="false" aria-controls="module-guestnode">
+                      <span class="card-tag" data-i18n="modules.items.0.name">GuestNode</span>
+                      <h3 class="h3" data-i18n="modules.items.0.short">Resident identity record</h3>
+                      <span class="card-more" data-i18n="modules.viewDetails">View details</span>
+                    </button>
+                    <div class="module-panel" id="module-guestnode" data-module-panel="guestnode" hidden>
+                      <p data-i18n="modules.details.guestnode.body"></p>
+                      <ul class="modal-points">
+                        <li data-i18n="modules.details.guestnode.points.0"></li>
+                        <li data-i18n="modules.details.guestnode.points.1"></li>
+                        <li data-i18n="modules.details.guestnode.points.2"></li>
+                        <li data-i18n="modules.details.guestnode.points.3"></li>
+                      </ul>
+                      <a href="#forms" class="btn btn--ghost" data-i18n="modules.ctaLink">Discuss this module</a>
+                    </div>
+                  </div>
+                  <div class="card module-card" data-reveal>
+            <img class="module-img" src="assets/modules/travelwall.png" alt="" loading="lazy">
+            <button type="button" class="module-toggle" data-module-toggle="travelwall" aria-expanded="false" aria-controls="module-travelwall">
+                      <span class="card-tag" data-i18n="modules.items.1.name">Smart Travel Wall</span>
+                      <h3 class="h3" data-i18n="modules.items.1.short">Interactive lobby &amp; wayfinding</h3>
+                      <span class="card-more" data-i18n="modules.viewDetails">View details</span>
+                    </button>
+                    <div class="module-panel" id="module-travelwall" data-module-panel="travelwall" hidden>
+                      <p data-i18n="modules.details.travelwall.body"></p>
+                      <ul class="modal-points">
+                        <li data-i18n="modules.details.travelwall.points.0"></li>
+                        <li data-i18n="modules.details.travelwall.points.1"></li>
+                        <li data-i18n="modules.details.travelwall.points.2"></li>
+                        <li data-i18n="modules.details.travelwall.points.3"></li>
+                      </ul>
+                      <a href="#forms" class="btn btn--ghost" data-i18n="modules.ctaLink">Discuss this module</a>
+                    </div>
+                  </div>
+                  <div class="card module-card" data-reveal>
+            <img class="module-img" src="assets/modules/agentos.png" alt="" loading="lazy">
+            <button type="button" class="module-toggle" data-module-toggle="agentos" aria-expanded="false" aria-controls="module-agentos">
+                      <span class="card-tag" data-i18n="modules.items.2.name">AgentOS</span>
+                      <h3 class="h3" data-i18n="modules.items.2.short">Coordinated agent layer</h3>
+                      <span class="card-more" data-i18n="modules.viewDetails">View details</span>
+                    </button>
+                    <div class="module-panel" id="module-agentos" data-module-panel="agentos" hidden>
+                      <p data-i18n="modules.details.agentos.body"></p>
+                      <ul class="modal-points">
+                        <li data-i18n="modules.details.agentos.points.0"></li>
+                        <li data-i18n="modules.details.agentos.points.1"></li>
+                        <li data-i18n="modules.details.agentos.points.2"></li>
+                        <li data-i18n="modules.details.agentos.points.3"></li>
+                      </ul>
+                      <a href="#forms" class="btn btn--ghost" data-i18n="modules.ctaLink">Discuss this module</a>
+                    </div>
+                  </div>
+                  <div class="card module-card" data-reveal>
+            <img class="module-img" src="assets/modules/energyiot.png" alt="" loading="lazy">
+            <button type="button" class="module-toggle" data-module-toggle="energyiot" aria-expanded="false" aria-controls="module-energyiot">
+                      <span class="card-tag" data-i18n="modules.items.3.name">Energy IoT</span>
+                      <h3 class="h3" data-i18n="modules.items.3.short">Room-level energy intelligence</h3>
+                      <span class="card-more" data-i18n="modules.viewDetails">View details</span>
+                    </button>
+                    <div class="module-panel" id="module-energyiot" data-module-panel="energyiot" hidden>
+                      <p data-i18n="modules.details.energyiot.body"></p>
+                      <ul class="modal-points">
+                        <li data-i18n="modules.details.energyiot.points.0"></li>
+                        <li data-i18n="modules.details.energyiot.points.1"></li>
+                        <li data-i18n="modules.details.energyiot.points.2"></li>
+                        <li data-i18n="modules.details.energyiot.points.3"></li>
+                      </ul>
+                      <a href="#forms" class="btn btn--ghost" data-i18n="modules.ctaLink">Discuss this module</a>
+                    </div>
+                  </div>
+                  <div class="card module-card" data-reveal>
+            <img class="module-img" src="assets/modules/smartaccess.png" alt="" loading="lazy">
+            <button type="button" class="module-toggle" data-module-toggle="smartaccess" aria-expanded="false" aria-controls="module-smartaccess">
+                      <span class="card-tag" data-i18n="modules.items.4.name">Smart Access</span>
+                      <h3 class="h3" data-i18n="modules.items.4.short">Keyless, consent-based access</h3>
+                      <span class="card-more" data-i18n="modules.viewDetails">View details</span>
+                    </button>
+                    <div class="module-panel" id="module-smartaccess" data-module-panel="smartaccess" hidden>
+                      <p data-i18n="modules.details.smartaccess.body"></p>
+                      <ul class="modal-points">
+                        <li data-i18n="modules.details.smartaccess.points.0"></li>
+                        <li data-i18n="modules.details.smartaccess.points.1"></li>
+                        <li data-i18n="modules.details.smartaccess.points.2"></li>
+                        <li data-i18n="modules.details.smartaccess.points.3"></li>
+                      </ul>
+                      <a href="#forms" class="btn btn--ghost" data-i18n="modules.ctaLink">Discuss this module</a>
+                    </div>
+                  </div>
+                  <div class="card module-card" data-reveal>
+            <img class="module-img" src="assets/modules/compliance.png" alt="" loading="lazy">
+            <button type="button" class="module-toggle" data-module-toggle="compliance" aria-expanded="false" aria-controls="module-compliance">
+                      <span class="card-tag" data-i18n="modules.items.5.name">Compliance</span>
+                      <h3 class="h3" data-i18n="modules.items.5.short">Audit, consent &amp; reporting</h3>
+                      <span class="card-more" data-i18n="modules.viewDetails">View details</span>
+                    </button>
+                    <div class="module-panel" id="module-compliance" data-module-panel="compliance" hidden>
+                      <p data-i18n="modules.details.compliance.body"></p>
+                      <ul class="modal-points">
+                        <li data-i18n="modules.details.compliance.points.0"></li>
+                        <li data-i18n="modules.details.compliance.points.1"></li>
+                        <li data-i18n="modules.details.compliance.points.2"></li>
+                        <li data-i18n="modules.details.compliance.points.3"></li>
+                      </ul>
+                      <a href="#forms" class="btn btn--ghost" data-i18n="modules.ctaLink">Discuss this module</a>
+                    </div>
+                  </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ GUEST JOURNEY ═══════════ -->
+    <section class="section" id="journey">
+      <div class="container">
+        <p class="eyebrow" data-i18n="journey.titleEyebrow">The experience</p>
+        <h2 class="h2" data-i18n="journey.title">A guest journey</h2>
+        <p class="section-sub" data-i18n="journey.sub">What an agent handles versus where a person reviews and approves.</p>
+        <p class="journey-intro" data-i18n="journey.intro">Five stages from booking to checkout.</p>
+
+        <ol class="timeline">
+          <li class="timeline-stage" data-reveal>
+            <span class="timeline-num" aria-hidden="true">1</span>
+            <h3 class="h3" data-i18n="journey.stages.0.name">Pre-arrival</h3>
+            <div class="timeline-col"><span class="chip chip--agent" data-i18n="journey.legendAgent">Agent</span><ul><li data-i18n="journey.stages.0.agent.0">Collects documents &amp; preferences</li></ul></div>
+            <div class="timeline-col"><span class="chip chip--human" data-i18n="journey.legendHuman">Human</span><ul><li data-i18n="journey.stages.0.human.0">Approves special requests</li></ul></div>
+          </li>
+          <li class="timeline-stage" data-reveal>
+            <span class="timeline-num" aria-hidden="true">2</span>
+            <h3 class="h3" data-i18n="journey.stages.1.name">Arrival / identity</h3>
+            <div class="timeline-col"><span class="chip chip--agent" data-i18n="journey.legendAgent">Agent</span><ul><li data-i18n="journey.stages.1.agent.0">Verifies identity, issues access</li></ul></div>
+            <div class="timeline-col"><span class="chip chip--human" data-i18n="journey.legendHuman">Human</span><ul><li data-i18n="journey.stages.1.human.0">Reviews flagged documents</li></ul></div>
+          </li>
+          <li class="timeline-stage" data-reveal>
+            <span class="timeline-num" aria-hidden="true">3</span>
+            <h3 class="h3" data-i18n="journey.stages.2.name">In-stay</h3>
+            <div class="timeline-col"><span class="chip chip--agent" data-i18n="journey.legendAgent">Agent</span><ul><li data-i18n="journey.stages.2.agent.0">Handles requests, tunes the room</li></ul></div>
+            <div class="timeline-col"><span class="chip chip--human" data-i18n="journey.legendHuman">Human</span><ul><li data-i18n="journey.stages.2.human.0">Reviews exceptions &amp; guest flags</li></ul></div>
+          </li>
+          <li class="timeline-stage" data-reveal>
+            <span class="timeline-num" aria-hidden="true">4</span>
+            <h3 class="h3" data-i18n="journey.stages.3.name">Request / commerce</h3>
+            <div class="timeline-col"><span class="chip chip--agent" data-i18n="journey.legendAgent">Agent</span><ul><li data-i18n="journey.stages.3.agent.0">Fulfils services via partners</li></ul></div>
+            <div class="timeline-col"><span class="chip chip--human" data-i18n="journey.legendHuman">Human</span><ul><li data-i18n="journey.stages.3.human.0">Authorises large or regulated orders</li></ul></div>
+          </li>
+          <li class="timeline-stage" data-reveal>
+            <span class="timeline-num" aria-hidden="true">5</span>
+            <h3 class="h3" data-i18n="journey.stages.4.name">Checkout / review</h3>
+            <div class="timeline-col"><span class="chip chip--agent" data-i18n="journey.legendAgent">Agent</span><ul><li data-i18n="journey.stages.4.agent.0">Closes billing, collects feedback</li></ul></div>
+            <div class="timeline-col"><span class="chip chip--human" data-i18n="journey.legendHuman">Human</span><ul><li data-i18n="journey.stages.4.human.0">Signs off final invoice</li></ul></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ═══════════ HARDWARE CATALOG ═══════════ -->
+    <section class="section section--alt" id="hardware">
+      <div class="container">
+        <p class="eyebrow" data-i18n="hardware.titleEyebrow">Devices &amp; endpoints</p>
+        <h2 class="h2" data-i18n="hardware.title">Hardware catalogue</h2>
+        <p class="section-sub" data-i18n="hardware.sub">Concept endpoints. Every device needs a technical and regulatory assessment before any claim of compliance.</p>
+
+        <div class="hardware-table">
+          <!-- row 1 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.0.name">Keyless smart lock</h3>
+              <span class="badge badge--warn" data-i18n="hardware.items.0.compliance">Assessment required</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.0.role">Room access without a physical key</p>
+            <p class="hw-body" data-i18n="hardware.items.0.value">Value driver; regulatory review pending.</p>
+            <p class="hw-meta" data-i18n="hardware.items.0.fit">Fit: boutique &amp; residence</p>
+          </article>
+          <!-- row 2 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.1.name">Check-in kiosk</h3>
+              <span class="badge" data-i18n="hardware.items.1.compliance">Software, no hardware certification</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.1.role">Self-service arrival</p>
+            <p class="hw-body" data-i18n="hardware.items.1.value">Reduces reception load at peak.</p>
+            <p class="hw-meta" data-i18n="hardware.items.1.fit">Fit: hotel lobby</p>
+          </article>
+          <!-- row 3 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.2.name">Guest lockers</h3>
+              <span class="badge badge--warn" data-i18n="hardware.items.2.compliance">Assessment required</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.2.role">Secure parcel &amp; luggage</p>
+            <p class="hw-body" data-i18n="hardware.items.2.value">24/7 service without staffing.</p>
+            <p class="hw-meta" data-i18n="hardware.items.2.fit">Fit: lobby &amp; residence</p>
+          </article>
+          <!-- row 4 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.3.name">Room presence sensor</h3>
+              <span class="badge badge--warn" data-i18n="hardware.items.3.compliance">Assessment required</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.3.role">Occupancy for energy control</p>
+            <p class="hw-body" data-i18n="hardware.items.3.value">Cut waste when rooms are empty.</p>
+            <p class="hw-meta" data-i18n="hardware.items.3.fit">Fit: all rooms</p>
+          </article>
+          <!-- row 5 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.4.name">Smart thermostat</h3>
+              <span class="badge badge--warn" data-i18n="hardware.items.4.compliance">Assessment required</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.4.role">Room climate automation</p>
+            <p class="hw-body" data-i18n="hardware.items.4.value">Comfort with measured energy use.</p>
+            <p class="hw-meta" data-i18n="hardware.items.4.fit">Fit: all rooms</p>
+          </article>
+          <!-- row 6 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.5.name">Interactive display</h3>
+              <span class="badge" data-i18n="hardware.items.5.compliance">Software, no hardware certification</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.5.role">Smart travel wall surface</p>
+            <p class="hw-body" data-i18n="hardware.items.5.value">Wayfinding, offers and local info.</p>
+            <p class="hw-meta" data-i18n="hardware.items.5.fit">Fit: lobby</p>
+          </article>
+          <!-- row 7 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.6.name">Smart cabinet</h3>
+              <span class="badge badge--warn" data-i18n="hardware.items.6.compliance">Assessment required</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.6.role">Regulated &amp; non-regulated retail</p>
+            <p class="hw-body" data-i18n="hardware.items.6.value">Controlled fulfilment in common space.</p>
+            <p class="hw-meta" data-i18n="hardware.items.6.fit">Fit: lobby, licensed partner</p>
+          </article>
+          <!-- row 8 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.7.name">Smart bin / dispensing</h3>
+              <span class="badge badge--warn" data-i18n="hardware.items.7.compliance">Assessment required</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.7.role">Stocked dispenser fulfilment</p>
+            <p class="hw-body" data-i18n="hardware.items.7.value">Automated restock and reconciliation.</p>
+            <p class="hw-meta" data-i18n="hardware.items.7.fit">Fit: corridor / partner</p>
+          </article>
+          <!-- row 9 -->
+          <article class="hardware-card" data-reveal>
+            <div class="hw-head">
+              <h3 class="h3" data-i18n="hardware.items.8.name">Gateway hub</h3>
+              <span class="badge" data-i18n="hardware.items.8.compliance">Software, no hardware certification</span>
+            </div>
+            <p class="hw-role" data-i18n="hardware.items.8.role">Local network bridge</p>
+            <p class="hw-body" data-i18n="hardware.items.8.value">Connects endpoints to the agent layer.</p>
+            <p class="hw-meta" data-i18n="hardware.items.8.fit">Fit: all installations</p>
+          </article>
+        </div>
+        <p class="hardware-note" data-i18n="hardware.note">Compliance status is a placeholder, not a certification.</p>
+      </div>
+    </section>
+
+    <!-- ═══════════ VAPE (separate, restrained, risk-controlled) ═══════════ -->
+    <section class="section section--vape" id="vape" aria-labelledby="vape-title">
+      <div class="container vape-inner">
+        <div class="vape-head">
+          <span class="badge badge--warn" data-i18n="vape.badge">Regulated vertical</span>
+          <h2 class="h2" id="vape-title" data-i18n="vape.title">Regulated vending</h2>
+        </div>
+        <p class="section-sub" data-i18n="vape.sub">A separate, adult-only vertical explored only through licensed partners. It is subordinate to the main hospitality offer and is never a headline proposition here.</p>
+
+        <div class="vape-gate" data-reveal>
+                  <button type="button" class="btn btn--ghost" data-vape-ok data-i18n="vape.age">I confirm I am 18+ / legal age</button>
+                  <button type="button" class="btn btn--ghost" data-vape-no data-i18n="vape.decline">I am under 18</button>
+                  <p class="vape-hint" data-i18n="vape.optin">Age and eligibility gate — shown before any regulated content.</p>
+                </div>
+
+                <div class="vape-detail" data-vape-detail hidden>
+                  <div class="panel vape-scope" data-reveal>
+                    <h3 class="h3" data-i18n="vape.scope">Scope</h3>
+                    <p data-i18n="vape.why">Concept only. No products are retailed through this site and there is no checkout. Fulfilment would run through authorised licensed operators under strict conditions.</p>
+                    <p class="vape-model" data-i18n="vape.model">Model: licensed partner owns compliance; the platform provides logistics and age verification tooling only.</p>
+                  </div>
+
+                  <div class="panel note vape-note" data-reveal>
+                    <p class="vape-disclaimer" data-i18n="vape.disclaimer">Available only through authorised licensed partners, subject to Italian regulation, age verification and property approval.</p>
+                    <p class="vape-explicit" data-i18n="vape.note">This is not legal advice. Regulated sale is subject to licensing, advertisement bans, excise duties, property written consent and operator authorisation. We make no medical or health claims.</p>
+                  </div>
+                </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ LIGURIA LAUNCH ═══════════ -->
+    <section class="section" id="liguria">
+      <div class="container">
+        <p class="eyebrow" data-i18n="liguria.titleEyebrow">Preferred launch region</p>
+        <h2 class="h2" data-i18n="liguria.title">Liguria launch corridor</h2>
+        <p class="section-sub" data-i18n="liguria.sub">Four province areas for a bounded first deployment, then a measured 90-day pilot.</p>
+
+        <div class="grid grid--4">
+          <article class="card" data-reveal><h3 class="h3" data-i18n="liguria.cities.0.name">Genova</h3><p data-i18n="liguria.cities.0.note">Urban portfolio and cruise spill-over.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="liguria.cities.1.name">Savona / Riviera</h3><p data-i18n="liguria.cities.1.note">Seasonal hotels and residences.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="liguria.cities.2.name">Imperia / Sanremo</h3><p data-i18n="liguria.cities.2.note">Premium seaside properties.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="liguria.cities.3.name">La Spezia / Cinque Terre</h3><p data-i18n="liguria.cities.3.note">High-turnover destination travel.</p></article>
+        </div>
+
+        <div class="pilot-block" data-reveal>
+          <h3 class="h3" data-i18n="liguria.pilotTitle">90-day pilot sequence</h3>
+          <ol class="pilot-steps">
+            <li><span class="step-num" aria-hidden="true">1</span><span data-i18n="liguria.pilot.0.t">Scoped audit</span><small data-i18n="liguria.pilot.0.d">Agree objectives, device list, consents.</small></li>
+            <li><span class="step-num" aria-hidden="true">2</span><span data-i18n="liguria.pilot.1.t">Deployment</span><small data-i18n="liguria.pilot.1.d">Install endpoints and identity layer.</small></li>
+            <li><span class="step-num" aria-hidden="true">3</span><span data-i18n="liguria.pilot.2.t">Agent enabling</span><small data-i18n="liguria.pilot.2.d">Map staff workflows and approvals.</small></li>
+            <li><span class="step-num" aria-hidden="true">4</span><span data-i18n="liguria.pilot.3.t">Live run</span><small data-i18n="liguria.pilot.3.d">Measure outcomes against agreed KPIs.</small></li>
+            <li><span class="step-num" aria-hidden="true">5</span><span data-i18n="liguria.pilot.4.t">Review &amp; gate</span><small data-i18n="liguria.pilot.4.d">Decide on expansion only if gates pass.</small></li>
+          </ol>
+        </div>
+
+        <div class="panel gates" data-reveal>
+          <h3 class="h3" data-i18n="liguria.gatesTitle">Expansion gates</h3>
+          <ul>
+            <li data-i18n="liguria.gates.0.t"><strong data-i18n="liguria.gates.0.t">Guest satisfaction</strong> <span data-i18n="liguria.gates.0.d">— measured, not assumed.</span></li>
+            <li data-i18n="liguria.gates.1.t"><strong data-i18n="liguria.gates.1.t">Operational savings</strong> <span data-i18n="liguria.gates.1.d">— verified against baseline.</span></li>
+            <li data-i18n="liguria.gates.2.t"><strong data-i18n="liguria.gates.2.t">Regulatory sign-off</strong> <span data-i18n="liguria.gates.2.d">— completed per device.</span></li>
+            <li data-i18n="liguria.gates.3.t"><strong data-i18n="liguria.gates.3.t">Security &amp; privacy audit</strong> <span data-i18n="liguria.gates.3.d">— clean pass required.</span></li>
+          </ul>
+          <p class="gates-note" data-i18n="liguria.dataNote">Placeholder criteria for discussion; final KPIs agreed with each property.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ FINANCIAL MODEL PREVIEW ═══════════ -->
+    <section class="section section--alt" id="financial">
+      <div class="container">
+        <p class="eyebrow" data-i18n="financial.titleEyebrow">Commercial thinking</p>
+        <h2 class="h2" data-i18n="financial.title">Financial model preview</h2>
+        <p class="section-sub" data-i18n="financial.sub">We show model categories only — no invented numbers, no valuations. Inputs are placeholders, not a promise of result.</p>
+
+        <p class="cat-title" data-i18n="financial.catTitle">Nine categories covered in the private model</p>
+        <div class="grid grid--3">
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.0.name">Startup investment</h3><p data-i18n="financial.items.0.desc">One-off setup and launch capital.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.1.name">CAPEX</h3><p data-i18n="financial.items.1.desc">Hardware and installation spend.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.2.name">SaaS revenue</h3><p data-i18n="financial.items.2.desc">Recurring platform subscriptions.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.3.name">Transaction / rental revenue</h3><p data-i18n="financial.items.3.desc">Variable income on fulfilled services.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.4.name">Working capital</h3><p data-i18n="financial.items.4.desc">Inventory and payment timing.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.5.name">P&amp;L</h3><p data-i18n="financial.items.5.desc">Revenue and cost structure.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.6.name">Cash flow</h3><p data-i18n="financial.items.6.desc">Timing and liquidity profile.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.7.name">Break-even</h3><p data-i18n="financial.items.7.desc">Units and timing to neutrality.</p></article>
+          <article class="card" data-reveal><h3 class="h3" data-i18n="financial.items.8.name">Risk register</h3><p data-i18n="financial.items.8.desc">Identified risks and mitigations.</p></article>
+        </div>
+
+        <p class="fin-disc" data-i18n="financial.disc">Placeholder categories. Nothing here is a projection, valuation or investment advice.</p>
+        <div class="fin-cta">
+          <h3 class="h3" data-i18n="financial.ctaTitle">Want the working model?</h3>
+          <a href="#forms" class="btn btn--gold" data-i18n="financial.cta">Request a private model discussion</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ RISKS & COMPLIANCE ═══════════ -->
+    <section class="section" id="risks">
+      <div class="container">
+        <p class="eyebrow" data-i18n="risks.titleEyebrow">Governing factors</p>
+        <h2 class="h2" data-i18n="risks.title">Risks &amp; compliance</h2>
+        <p class="section-sub" data-i18n="risks.sub">The honest map of what must be assessed before anything ships.</p>
+
+        <div class="risks-list">
+          <article class="risk-item" data-reveal><h3 class="h3" data-i18n="risks.items.0.area">Data protection (GDPR)</h3><p class="risk-cat" data-i18n="risks.items.0.cat">Legal</p><p data-i18n="risks.items.0.mitigation">Consent-first identity, minimal data, right to erasure.</p></article>
+          <article class="risk-item" data-reveal><h3 class="h3" data-i18n="risks.items.1.area">CE / RED / EMC / RoHS</h3><p class="risk-cat" data-i18n="risks.items.1.cat">Technical</p><p data-i18n="risks.items.1.mitigation">Per-device conformity assessment before EU placement.</p></article>
+          <article class="risk-item" data-reveal><h3 class="h3" data-i18n="risks.items.2.area">Cyber Resilience Act (CRA)</h3><p class="risk-cat" data-i18n="risks.items.2.cat">Technical</p><p data-i18n="risks.items.2.mitigation">Security-by-design and vulnerability handling.</p></article>
+          <article class="risk-item" data-reveal><h3 class="h3" data-i18n="risks.items.3.area">Italian identity rules</h3><p class="risk-cat" data-i18n="risks.items.3.cat">Legal</p><p data-i18n="risks.items.3.mitigation">Guest registration and document handling per law.</p></article>
+          <article class="risk-item" data-reveal><h3 class="h3" data-i18n="risks.items.4.area">Payment security</h3><p class="risk-cat" data-i18n="risks.items.4.cat">Operational</p><p data-i18n="risks.items.4.mitigation">PCI-compliant processing via certified providers.</p></article>
+          <article class="risk-item" data-reveal><h3 class="h3" data-i18n="risks.items.5.area">Vape licensing</h3><p class="risk-cat" data-i18n="risks.items.5.cat">Regulated</p><p data-i18n="risks.items.5.mitigation">Licensed partners only; age verification; property consent.</p></article>
+          <article class="risk-item" data-reveal><h3 class="h3" data-i18n="risks.items.6.area">Fulfilment liability</h3><p class="risk-cat" data-i18n="risks.items.6.cat">Operational</p><p data-i18n="risks.items.6.mitigation">Clear responsibility split between platform and operator.</p></article>
+          <article class="risk-item" data-reveal><h3 class="h3" data-i18n="risks.items.7.area">Local property approvals</h3><p class="risk-cat" data-i18n="risks.items.7.cat">Legal</p><p data-i18n="risks.items.7.mitigation">Written consent for every installation and service.</p></article>
+        </div>
+
+        <div class="panel note" data-reveal>
+          <p data-i18n="risks.legalNote">This section is not legal advice. Consult qualified counsel for the specific jurisdictions, products and contracts involved.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ FORMS ═══════════ -->
+    <section class="section section--forms" id="forms">
+      <div class="container">
+        <p class="eyebrow" data-i18n="forms.titleEyebrow">Get in touch</p>
+        <h2 class="h2" data-i18n="forms.title">Speak to the team</h2>
+        <p class="section-sub" data-i18n="forms.sub">Choose the form that fits. Fields marked required are mandatory; consent is required under GDPR.</p>
+        <p class="forms-intro" data-i18n="forms.intro">All messages are read by a person. Submissions go nowhere automatically unless an endpoint is configured.</p>
+
+        <div class="forms-grid">
+
+          <!-- ── FORM 1 : PILOT ── -->
+          <form class="form form-card" data-netlify="true" netlify-honeypot="website_url" name="pilot" method="post" novalidate>
+            <input type="hidden" name="form-name" value="pilot">
+            <input type="hidden" name="lang" value="">
+            <input type="hidden" name="form_id" value="pilot">
+            <input type="hidden" name="utmsource" value="">
+            <input type="hidden" name="utmmedium" value="">
+            <input type="hidden" name="utmcampaign" value="">
+            <p class="hp" aria-hidden="true"><label>Leave this blank<input class="hp" name="website_url" tabindex="-1" autocomplete="off"></label></p>
+
+            <h3 class="h3 form-title" data-i18n="forms.forms.0.title">Request a pilot</h3>
+
+            <div class="field-group">
+              <label for="pilot-prop" class="form-label" data-i18n="forms.forms.0.fields.0.label">Property name</label>
+              <input class="form-input" id="pilot-prop" name="property_name" type="text" required data-i18n-ph="forms.forms.0.fields.0.ph" placeholder="Property name">
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.name"></p>
+            </div>
+            <div class="field-group">
+              <label for="pilot-contact" class="form-label" data-i18n="forms.forms.0.fields.1.label">Contact name</label>
+              <input class="form-input" id="pilot-contact" name="contact_name" type="text" required data-i18n-ph="forms.forms.0.fields.1.ph" placeholder="Your name">
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.name"></p>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="pilot-email" class="form-label" data-i18n="forms.forms.0.fields.2.label">Email</label>
+                <input class="form-input" id="pilot-email" name="email" type="email" required data-i18n-ph="forms.forms.0.fields.2.ph" placeholder="name@example.com">
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.email"></p>
+              </div>
+              <div class="field-group">
+                <label for="pilot-phone" class="form-label" data-i18n="forms.forms.0.fields.3.label">Phone</label>
+                <input class="form-input" id="pilot-phone" name="phone" type="tel" data-i18n-ph="forms.forms.0.fields.3.ph" placeholder="+39 ...">
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="pilot-city" class="form-label" data-i18n="forms.forms.0.fields.4.label">City</label>
+                <input class="form-input" id="pilot-city" name="city" type="text" required data-i18n-ph="forms.forms.0.fields.4.ph" placeholder="City">
+              </div>
+              <div class="field-group">
+                <label for="pilot-type" class="form-label" data-i18n="forms.forms.0.fields.5.label">Property type</label>
+                <select class="form-select" id="pilot-type" name="property_type" required data-i18n-ph="forms.forms.0.fields.5.ph">
+                  <option value="" data-i18n="forms.opt">—</option>
+                  <option value="hotel" data-i18n="forms.forms.0.fields.5.options.0">Hotel</option>
+                  <option value="bnb" data-i18n="forms.forms.0.fields.5.options.1">B&amp;B</option>
+                  <option value="residence" data-i18n="forms.forms.0.fields.5.options.2">Residence</option>
+                  <option value="boutique" data-i18n="forms.forms.0.fields.5.options.3">Boutique hotel</option>
+                  <option value="other" data-i18n="forms.forms.0.fields.5.options.4">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="pilot-rooms" class="form-label" data-i18n="forms.forms.0.fields.6.label">Rooms / keys</label>
+                <input class="form-input" id="pilot-rooms" name="rooms" type="number" min="1" required data-i18n-ph="forms.forms.0.fields.6.ph" placeholder="10">
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.required"></p>
+              </div>
+              <div class="field-group">
+                <label for="pilot-pms" class="form-label" data-i18n="forms.forms.0.fields.7.label">Current PMS</label>
+                <input class="form-input" id="pilot-pms" name="pms" type="text" data-i18n-ph="forms.forms.0.fields.7.ph" placeholder="PMS name, if any">
+              </div>
+            </div>
+            <fieldset class="field-group">
+              <legend class="form-label" data-i18n="forms.forms.0.fields.8.label">Interests</legend>
+              <div class="checkbox-grid">
+                <label class="form-check"><input type="checkbox" name="interests" value="Agent OS" data-i18n="forms.forms.0.fields.8.options.0"> Agent OS</label>
+                <label class="form-check"><input type="checkbox" name="interests" value="GuestNode" data-i18n="forms.forms.0.fields.8.options.1"> GuestNode</label>
+                <label class="form-check"><input type="checkbox" name="interests" value="Smart Travel Wall" data-i18n="forms.forms.0.fields.8.options.2"> Smart Travel Wall</label>
+                <label class="form-check"><input type="checkbox" name="interests" value="Lockers" data-i18n="forms.forms.0.fields.8.options.3"> Lockers</label>
+                <label class="form-check"><input type="checkbox" name="interests" value="IoT energy" data-i18n="forms.forms.0.fields.8.options.4"> IoT energy</label>
+                <label class="form-check"><input type="checkbox" name="interests" value="Smart access" data-i18n="forms.forms.0.fields.8.options.5"> Smart access</label>
+                <label class="form-check"><input type="checkbox" name="interests" value="Check-in kiosk" data-i18n="forms.forms.0.fields.8.options.6"> Check-in kiosk</label>
+                <label class="form-check"><input type="checkbox" name="interests" value="Regulated vending" data-i18n="forms.forms.0.fields.8.options.7"> Regulated vending (licensed partner)</label>
+              </div>
+            </fieldset>
+            <div class="field-group">
+              <label for="pilot-lang" class="form-label" data-i18n="forms.forms.0.fields.9.label">Preferred language</label>
+              <select class="form-select" id="pilot-lang" name="lang_pref">
+                <option value="" data-i18n="forms.opt">—</option>
+                <option value="it" data-i18n="forms.forms.0.fields.9.options.0">Italiano</option>
+                <option value="en" data-i18n="forms.forms.0.fields.9.options.1">English</option>
+                <option value="ru" data-i18n="forms.forms.0.fields.9.options.2">Русский</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label for="pilot-notes" class="form-label" data-i18n="forms.forms.0.fields.10.label">Notes</label>
+              <textarea class="form-textarea" id="pilot-notes" name="notes" rows="3" data-i18n-ph="forms.forms.0.fields.10.ph" placeholder="Anything we should know"></textarea>
+            </div>
+            <div class="field-group">
+              <label class="form-check form-consent"><input type="checkbox" name="consent" required data-i18n-aria="forms.consentAria"> <span data-i18n="forms.consent">I consent to being contacted about this request under GDPR.</span></label>
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.consent"></p>
+            </div>
+            <button type="submit" class="btn btn--gold" data-i18n="forms.submit">Submit</button>
+            <p class="form-privacy" data-i18n="forms.privacy">Your data is used only to respond to your request.</p>
+            <div class="success-box" role="status" hidden>
+              <span class="success-check" aria-hidden="true">✓</span>
+              <span data-i18n="forms.success">Thank you — we will be in touch.</span>
+              <a class="success-link" href="thank-you.html" data-i18n="forms.thankYou">Go to thank-you page</a>
+            </div>
+          </form>
+
+          <!-- ── FORM 2 : CALL ── -->
+          <form class="form form-card" data-netlify="true" netlify-honeypot="website_url" name="call" method="post" novalidate>
+            <input type="hidden" name="form-name" value="call">
+            <input type="hidden" name="lang" value="">
+            <input type="hidden" name="form_id" value="call">
+            <input type="hidden" name="utmsource" value="">
+            <input type="hidden" name="utmmedium" value="">
+            <input type="hidden" name="utmcampaign" value="">
+            <p class="hp" aria-hidden="true"><label>Leave this blank<input class="hp" name="website_url" tabindex="-1" autocomplete="off"></label></p>
+
+            <h3 class="h3 form-title" data-i18n="forms.forms.1.title">Book a 20-minute discovery call</h3>
+
+            <div class="field-group">
+              <label for="call-name" class="form-label" data-i18n="forms.forms.1.fields.0.label">Name</label>
+              <input class="form-input" id="call-name" name="name" type="text" required data-i18n-ph="forms.forms.1.fields.0.ph" placeholder="Your name">
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.name"></p>
+            </div>
+            <div class="field-group">
+              <label for="call-hotel" class="form-label" data-i18n="forms.forms.1.fields.1.label">Hotel / organisation</label>
+              <input class="form-input" id="call-hotel" name="hotel" type="text" required data-i18n-ph="forms.forms.1.fields.1.ph" placeholder="Hotel name">
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.required"></p>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="call-email" class="form-label" data-i18n="forms.forms.1.fields.2.label">Email</label>
+                <input class="form-input" id="call-email" name="email" type="email" required data-i18n-ph="forms.forms.1.fields.2.ph" placeholder="name@example.com">
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.email"></p>
+              </div>
+              <div class="field-group">
+                <label for="call-phone" class="form-label" data-i18n="forms.forms.1.fields.3.label">Phone</label>
+                <input class="form-input" id="call-phone" name="phone" type="tel" data-i18n-ph="forms.forms.1.fields.3.ph" placeholder="+39 ...">
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="call-date" class="form-label" data-i18n="forms.forms.1.fields.4.label">Preferred date</label>
+                <input class="form-input" id="call-date" name="date" type="date" required>
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.date"></p>
+              </div>
+              <div class="field-group">
+                <label for="call-time" class="form-label" data-i18n="forms.forms.1.fields.5.label">Preferred time</label>
+                <input class="form-input" id="call-time" name="time" type="time" required>
+              </div>
+            </div>
+            <div class="field-group">
+              <label for="call-lang" class="form-label" data-i18n="forms.forms.1.fields.6.label">Call language</label>
+              <select class="form-select" id="call-lang" name="lang">
+                <option value="" data-i18n="forms.opt">—</option>
+                <option value="it" data-i18n="forms.forms.1.fields.6.options.0">Italiano</option>
+                <option value="en" data-i18n="forms.forms.1.fields.6.options.1">English</option>
+                <option value="ru" data-i18n="forms.forms.1.fields.6.options.2">Русский</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label for="call-challenge" class="form-label" data-i18n="forms.forms.1.fields.7.label">Main challenge you want to solve</label>
+              <textarea class="form-textarea" id="call-challenge" name="challenge" rows="3" required data-i18n-ph="forms.forms.1.fields.7.ph" placeholder="Tell us briefly..."></textarea>
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.required"></p>
+            </div>
+            <div class="field-group">
+              <label class="form-check form-consent"><input type="checkbox" name="consent" required> <span data-i18n="forms.consent">I consent to being contacted about this request under GDPR.</span></label>
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.consent"></p>
+            </div>
+            <button type="submit" class="btn btn--gold" data-i18n="forms.submit">Submit</button>
+            <p class="form-privacy" data-i18n="forms.privacy">Your data is used only to respond to your request.</p>
+            <div class="success-box" role="status" hidden>
+              <span class="success-check" aria-hidden="true">✓</span>
+              <span data-i18n="forms.success">Thank you — we will be in touch.</span>
+              <a class="success-link" href="thank-you.html" data-i18n="forms.thankYou">Go to thank-you page</a>
+            </div>
+          </form>
+
+          <!-- ── FORM 3 : OEM ── -->
+          <form class="form form-card" data-netlify="true" netlify-honeypot="website_url" name="oem" method="post" novalidate>
+            <input type="hidden" name="form-name" value="oem">
+            <input type="hidden" name="lang" value="">
+            <input type="hidden" name="form_id" value="oem">
+            <input type="hidden" name="utmsource" value="">
+            <input type="hidden" name="utmmedium" value="">
+            <input type="hidden" name="utmcampaign" value="">
+            <p class="hp" aria-hidden="true"><label>Leave this blank<input class="hp" name="website_url" tabindex="-1" autocomplete="off"></label></p>
+
+            <h3 class="h3 form-title" data-i18n="forms.forms.2.title">Hardware &amp; OEM partnership</h3>
+
+            <div class="field-row">
+              <div class="field-group">
+                <label for="oem-company" class="form-label" data-i18n="forms.forms.2.fields.0.label">Company</label>
+                <input class="form-input" id="oem-company" name="company" type="text" required data-i18n-ph="forms.forms.2.fields.0.ph" placeholder="Company">
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.required"></p>
+              </div>
+              <div class="field-group">
+                <label for="oem-country" class="form-label" data-i18n="forms.forms.2.fields.1.label">Country</label>
+                <input class="form-input" id="oem-country" name="country" type="text" required data-i18n-ph="forms.forms.2.fields.1.ph" placeholder="Country">
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="oem-category" class="form-label" data-i18n="forms.forms.2.fields.2.label">Product category</label>
+                <input class="form-input" id="oem-category" name="category" type="text" required data-i18n-ph="forms.forms.2.fields.2.ph" placeholder="e.g. smart lock">
+              </div>
+              <div class="field-group">
+                <label for="oem-moq" class="form-label" data-i18n="forms.forms.2.fields.3.label">MOQ</label>
+                <input class="form-input" id="oem-moq" name="moq" type="text" data-i18n-ph="forms.forms.2.fields.3.ph" placeholder="Minimum order quantity">
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="oem-docs" class="form-label" data-i18n="forms.forms.2.fields.4.label">CE / RED / EMC / RoHS documents</label>
+                <select class="form-select" id="oem-docs" name="docs" required>
+                  <option value="" data-i18n="forms.opt">—</option>
+                  <option value="yes" data-i18n="forms.forms.2.fields.4.options.0">Yes, available</option>
+                  <option value="partial" data-i18n="forms.forms.2.fields.4.options.1">Partial</option>
+                  <option value="no" data-i18n="forms.forms.2.fields.4.options.2">No</option>
+                </select>
+              </div>
+              <div class="field-group">
+                <label for="oem-api" class="form-label" data-i18n="forms.forms.2.fields.5.label">Open API / local control</label>
+                <select class="form-select" id="oem-api" name="api" required>
+                  <option value="" data-i18n="forms.opt">—</option>
+                  <option value="yes" data-i18n="forms.forms.2.fields.5.options.0">Yes</option>
+                  <option value="no" data-i18n="forms.forms.2.fields.5.options.1">No</option>
+                </select>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="oem-contact" class="form-label" data-i18n="forms.forms.2.fields.6.label">Contact person</label>
+                <input class="form-input" id="oem-contact" name="contact_person" type="text" required data-i18n-ph="forms.forms.2.fields.6.ph" placeholder="Name">
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.name"></p>
+              </div>
+              <div class="field-group">
+                <label for="oem-email" class="form-label" data-i18n="forms.forms.2.fields.7.label">Email</label>
+                <input class="form-input" id="oem-email" name="email" type="email" required data-i18n-ph="forms.forms.2.fields.7.ph" placeholder="name@example.com">
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.email"></p>
+              </div>
+            </div>
+            <div class="field-group">
+              <label for="oem-website" class="form-label" data-i18n="forms.forms.2.fields.8.label">Website</label>
+              <input class="form-input" id="oem-website" name="website" type="url" data-i18n-ph="forms.forms.2.fields.8.ph" placeholder="https://...">
+            </div>
+            <div class="field-group">
+              <label for="oem-message" class="form-label" data-i18n="forms.forms.2.fields.9.label">Message</label>
+              <textarea class="form-textarea" id="oem-message" name="message" rows="3" data-i18n-ph="forms.forms.2.fields.9.ph" placeholder="Your message"></textarea>
+            </div>
+            <div class="field-group">
+              <label class="form-check form-consent"><input type="checkbox" name="consent" required> <span data-i18n="forms.consent">I consent to being contacted about this request under GDPR.</span></label>
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.consent"></p>
+            </div>
+            <button type="submit" class="btn btn--gold" data-i18n="forms.submit">Submit</button>
+            <p class="form-privacy" data-i18n="forms.privacy">Your data is used only to respond to your request.</p>
+            <div class="success-box" role="status" hidden>
+              <span class="success-check" aria-hidden="true">✓</span>
+              <span data-i18n="forms.success">Thank you — we will be in touch.</span>
+              <a class="success-link" href="thank-you.html" data-i18n="forms.thankYou">Go to thank-you page</a>
+            </div>
+          </form>
+
+          <!-- ── FORM 4 : INVESTOR ── -->
+          <form class="form form-card" data-netlify="true" netlify-honeypot="website_url" name="investor" method="post" novalidate>
+            <input type="hidden" name="form-name" value="investor">
+            <input type="hidden" name="lang" value="">
+            <input type="hidden" name="form_id" value="investor">
+            <input type="hidden" name="utmsource" value="">
+            <input type="hidden" name="utmmedium" value="">
+            <input type="hidden" name="utmcampaign" value="">
+            <p class="hp" aria-hidden="true"><label>Leave this blank<input class="hp" name="website_url" tabindex="-1" autocomplete="off"></label></p>
+
+            <h3 class="h3 form-title" data-i18n="forms.forms.3.title">Investor / strategic partner</h3>
+
+            <div class="field-row">
+              <div class="field-group">
+                <label for="inv-name" class="form-label" data-i18n="forms.forms.3.fields.0.label">Name</label>
+                <input class="form-input" id="inv-name" name="name" type="text" required data-i18n-ph="forms.forms.3.fields.0.ph" placeholder="Your name">
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.name"></p>
+              </div>
+              <div class="field-group">
+                <label for="inv-org" class="form-label" data-i18n="forms.forms.3.fields.1.label">Organisation</label>
+                <input class="form-input" id="inv-org" name="organisation" type="text" required data-i18n-ph="forms.forms.3.fields.1.ph" placeholder="Organisation">
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="inv-role" class="form-label" data-i18n="forms.forms.3.fields.2.label">Your role</label>
+                <input class="form-input" id="inv-role" name="role" type="text" required data-i18n-ph="forms.forms.3.fields.2.ph" placeholder="e.g. Partner, Investor">
+              </div>
+              <div class="field-group">
+                <label for="inv-email" class="form-label" data-i18n="forms.forms.3.fields.3.label">Email</label>
+                <input class="form-input" id="inv-email" name="email" type="email" required data-i18n-ph="forms.forms.3.fields.3.ph" placeholder="name@example.com">
+                <p class="error-text" role="alert" hidden data-i18n="forms.errors.email"></p>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="inv-phone" class="form-label" data-i18n="forms.forms.3.fields.4.label">Phone</label>
+              <input class="form-input" id="inv-phone" name="phone" type="tel" data-i18n-ph="forms.forms.3.fields.4.ph" placeholder="+39 ...">
+            </div>
+            <div class="field-group">
+              <label for="inv-interest" class="form-label" data-i18n="forms.forms.3.fields.5.label">Interest</label>
+              <select class="form-select" id="inv-interest" name="interest" required>
+                <option value="" data-i18n="forms.opt">—</option>
+                <option value="financial" data-i18n="forms.forms.3.fields.5.options.0">Financial</option>
+                <option value="strategic" data-i18n="forms.forms.3.fields.5.options.1">Strategic</option>
+                <option value="distribution" data-i18n="forms.forms.3.fields.5.options.2">Distribution</option>
+                <option value="other" data-i18n="forms.forms.3.fields.5.options.3">Other</option>
+              </select>
+            </div>
+          </div>
+            <div class="field-group">
+              <label for="inv-note" class="form-label" data-i18n="forms.forms.3.fields.6.label">Note</label>
+              <textarea class="form-textarea" id="inv-note" name="note" rows="3" data-i18n-ph="forms.forms.3.fields.6.ph" placeholder="A short note"></textarea>
+            </div>
+            <div class="field-group">
+              <label class="form-check form-consent"><input type="checkbox" name="consent" required> <span data-i18n="forms.consent">I consent to being contacted about this request under GDPR.</span></label>
+              <p class="error-text" role="alert" hidden data-i18n="forms.errors.consent"></p>
+            </div>
+            <button type="submit" class="btn btn--gold" data-i18n="forms.submit">Submit</button>
+            <p class="form-privacy" data-i18n="forms.privacy">Your data is used only to respond to your request.</p>
+            <div class="success-box" role="status" hidden>
+              <span class="success-check" aria-hidden="true">✓</span>
+              <span data-i18n="forms.success">Thank you — we will be in touch.</span>
+              <a class="success-link" href="thank-you.html" data-i18n="forms.thankYou">Go to thank-you page</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CTA BAND ═══════════ -->
+    <section class="cta-band" id="cta">
+      <div class="container">
+        <h2 class="h2" data-i18n="ctaBand.title">Let's shape a pilot together</h2>
+        <p class="cta-sub" data-i18n="ctaBand.sub">Tell us about your property and we'll map what a first deployment could look like.</p>
+        <a href="#forms" class="btn btn--gold" data-i18n="ctaBand.cta">Request a pilot</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a class="logo" href="#main">
+          <span class="logo-mark" aria-hidden="true">HA</span>
+          <span class="logo-text" data-i18n="header.logo1">avibe-</span>
+          <span class="logo-text logo-text--accent" data-i18n="header.logo2">hospitality</span>
+        </a>
+        <p class="footer-about" data-i18n="footer.about">Hardware which eases the pain and sells software (modular hardware + software) for hospitality (B2B). Further projected to be built and integrated — avibe hospitality harness.</p>
+        <p class="footer-credit" data-i18n="footer.credit">avibe-hospitality</p>
+        <p class="footer-designed" data-i18n="footer.designBy">Designed by Avibe Agency</p>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-title" data-i18n="footer.contactTitle">Contact</h3>
+        <ul class="footer-list">
+          <li><a href="tel:+393450234084">+39 345 023 4084</a></li>
+          <li><a href="https://wa.me/393450234084" data-i18n="footer.whatsapp" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="mailto:alegra_007@proton.me">alegra_007@proton.me</a></li>
+          <li class="footer-note" data-i18n="footer.contactNote">Best reached during Italian business hours.</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-title" data-i18n="footer.nav">Site</h3>
+        <ul class="footer-list">
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#architecture" data-i18n="nav.architecture">Architecture</a></li>
+          <li><a href="#modules" data-i18n="nav.modules">Modules</a></li>
+          <li><a href="#hardware" data-i18n="nav.hardware">Hardware</a></li>
+          <li><a href="#vape" data-i18n="nav.vape">Vape</a></li>
+          <li><a href="#financial" data-i18n="nav.financial">Financial</a></li>
+          <li><a href="#forms" data-i18n="nav.forms">Forms</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-title" data-i18n="footer.legal">Legal</h3>
+        <ul class="footer-list">
+          <li><a href="legal/privacy.html" data-i18n="footer.privacy">Privacy policy</a></li>
+          <li><a href="legal/cookies.html" data-i18n="footer.cookies">Cookie policy</a></li>
+          <li><a href="legal/disclaimer.html" data-i18n="footer.disclaimer">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="footer-disclaimer" data-i18n="footer.disclaimerText">Concept specification. Not an offer, projection or certification. See the disclaimer for details.</p>
+      <p class="footer-rights" data-i18n="footer.rights">© 2026 avibe-hospitality. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- ═══════════ COOKIE CONSENT (hidden by default) ═══════════ -->
+  <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie consent" hidden data-i18n-aria="cookie.title">
+    <div class="container">
+      <p class="cookie-title" data-i18n="cookie.title">We respect your privacy</p>
+      <p class="cookie-text" data-i18n="cookie.text">We use only essential cookies and process data as described in our policies.</p>
+      <div class="cookie-actions">
+        <button type="button" class="btn btn--gold cookie-accept" data-cookie="accept" data-i18n="cookie.accept">Accept</button>
+        <button type="button" class="btn btn--ghost cookie-decline" data-cookie="decline" data-i18n="cookie.decline">Decline</button>
+        <a href="legal/cookies.html" class="cookie-link" data-i18n="cookie.privacy">Cookie policy</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Empty root managed by app.js for dynamic content -->
+  <div id="modal-root"></div>
+
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

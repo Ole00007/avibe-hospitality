@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Energy IoT — smart room energy control">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1623"/>
+      <stop offset="1" stop-color="#1a2c42"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C2A476"/>
+      <stop offset="1" stop-color="#B08D57"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- room wall + window -->
+  <rect x="0" y="0" width="800" height="470" fill="#12233a"/>
+  <rect x="120" y="80" width="240" height="200" rx="6" fill="#0B1623" stroke="url(#gold)" stroke-width="2.5"/>
+  <line x1="240" y1="80" x2="240" y2="280" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="120" y1="180" x2="360" y2="180" stroke="url(#gold)" stroke-width="1.5"/>
+  <!-- bed -->
+  <rect x="420" y="330" width="300" height="60" rx="10" fill="#1a2c42" stroke="#66704A" stroke-width="2"/>
+  <rect x="420" y="300" width="300" height="40" rx="10" fill="#1a2c42" stroke="#66704A" stroke-width="2"/>
+  <rect x="440" y="310" width="120" height="20" rx="8" fill="#B08D57" opacity="0.6"/>
+  <!-- presence sensor (ceiling) -->
+  <circle cx="400" cy="60" r="14" fill="#0B1623" stroke="url(#gold)" stroke-width="2.5"/>
+  <circle cx="400" cy="60" r="5" fill="#C9D8A8"/>
+  <!-- sensor waves -->
+  <g fill="none" stroke="#66704A" stroke-width="1.5" opacity="0.7">
+    <path d="M400 80 a20 20 0 0 1 0 40"/>
+    <path d="M400 80 a34 34 0 0 1 0 68"/>
+  </g>
+  <!-- climate panel -->
+  <rect x="560" y="120" width="120" height="90" rx="8" fill="#0B1623" stroke="url(#gold)" stroke-width="2"/>
+  <circle cx="620" cy="155" r="18" fill="none" stroke="#66704A" stroke-width="2"/>
+  <path d="M620 155 a14 14 0 0 1 10 5" fill="none" stroke="#C9D8A8" stroke-width="2" stroke-linecap="round"/>
+  <rect x="580" y="185" width="80" height="8" rx="4" fill="#66704A" opacity="0.6"/>
+  <!-- floor -->
+  <line x1="0" y1="470" x2="800" y2="470" stroke="#66704A" stroke-width="2" opacity="0.5"/>
+  <!-- laurel accents -->
+  <g fill="none" stroke="#66704A" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M60 300 c-8 -4 -12 -12 -10 -20 c6 2 10 6 12 12"/>
+    <path d="M58 306 c-10 -2 -16 -10 -14 -18 c6 2 10 8 12 14"/>
+    <path d="M740 300 c8 -4 12 -12 10 -20 c-6 2 -10 6 -12 12"/>
+    <path d="M742 306 c10 -2 16 -10 14 -18 c-6 2 -10 8 -12 14"/>
+  </g>
+  <text x="400" y="60" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="url(#gold)" letter-spacing="2">Energy IoT</text>
+</svg>

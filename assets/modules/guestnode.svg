@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="GuestNode — guest terminal in a hotel lobby">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1623"/>
+      <stop offset="1" stop-color="#1a2c42"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C2A476"/>
+      <stop offset="1" stop-color="#B08D57"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- classical arch window -->
+  <path d="M180 470 V260 a220 220 0 0 1 440 0 V470" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.5"/>
+  <path d="M200 470 V270 a200 200 0 0 1 400 0 V470" fill="none" stroke="url(#gold)" stroke-width="1.5" opacity="0.35"/>
+  <!-- floor line -->
+  <line x1="0" y1="470" x2="800" y2="470" stroke="#66704A" stroke-width="2" opacity="0.5"/>
+  <!-- terminal -->
+  <rect x="330" y="200" width="140" height="230" rx="10" fill="#12233a" stroke="url(#gold)" stroke-width="2.5"/>
+  <rect x="342" y="212" width="116" height="150" rx="6" fill="#0B1623" stroke="#66704A" stroke-width="1.5"/>
+  <!-- screen glow -->
+  <rect x="352" y="222" width="96" height="130" rx="4" fill="#1a2c42"/>
+  <circle cx="400" cy="270" r="22" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M388 270 l8 8 l16 -18" fill="none" stroke="#C9D8A8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="360" y="310" width="80" height="8" rx="4" fill="#66704A" opacity="0.7"/>
+  <rect x="360" y="326" width="60" height="8" rx="4" fill="#66704A" opacity="0.5"/>
+  <!-- base -->
+  <rect x="310" y="430" width="180" height="14" rx="7" fill="url(#gold)"/>
+  <!-- laurel accents -->
+  <g fill="none" stroke="#66704A" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M120 300 c-8 -4 -12 -12 -10 -20 c6 2 10 6 12 12"/>
+    <path d="M118 306 c-10 -2 -16 -10 -14 -18 c6 2 10 8 12 14"/>
+    <path d="M680 300 c8 -4 12 -12 10 -20 c-6 2 -10 6 -12 12"/>
+    <path d="M682 306 c10 -2 16 -10 14 -18 c-6 2 -10 8 -12 14"/>
+  </g>
+  <text x="400" y="60" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="url(#gold)" letter-spacing="2">GuestNode</text>
+</svg>
