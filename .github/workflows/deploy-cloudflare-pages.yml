@@ -1,0 +1,40 @@
+# Deploy the static site to Cloudflare Pages on every push to main.
+#
+# Reusable 'every project by default' pattern: copy this workflow into any
+# static repo and add ONE GitHub secret named CLOUDFLARE_API_TOKEN. No
+# per-project Cloudflare dashboard setup is required — deploy happens by
+# direct upload via cloudflare/wrangler-action (the Pages project is created
+# automatically if the name is new).
+#
+# To adapt for another project, change the two lines below marked EDIT.
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: cloudflare-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # EDIT(next): your Cloudflare account ID
+          accountId: 177be9fe43f849edf5c98ea100ac0f24
+          # EDIT(next): your Pages project name. Repo root is the publish dir
+          # (no build step). Add " --branch ${{ github.ref_name }}" if needed.
+          command: pages deploy . --project-name=avibe-hospitality
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
